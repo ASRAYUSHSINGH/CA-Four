@@ -1,0 +1,81 @@
+body{
+    text-align: center;
+}
+
+.body{
+    height: 100vh;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.modeBtn{
+    padding: 9px 15px;
+    border-radius: 17px;
+    font-size: 17px;
+    background-color: black;
+    color: rgb(33, 149, 124);
+    font-weight:700;
+    border: 1px solid black;
+}
+
+.questionBox{
+    background-color: #61d285;
+    padding: 80px;
+    margin:0% 23.5%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.option{
+    border: 0px;
+    margin: 10px;
+    padding: 7px 10px;
+    border-radius: 10px;
+    background-color: aliceblue; 
+    cursor: pointer;
+}
+    .option:hover{
+        background-color: #33efe3;
+        border: 1px solid rgb(93, 93, 255);
+        transition:450ms;
+    }
+
+.hlbox{
+    display: flex;
+    justify-content: space-around;
+}
+
+.highlight,.removehighlight{
+    padding: 7px 10px;
+    border-radius: 10px;
+    font-weight: 550;
+    font-size: 18px;
+    border: 0px;
+}
+    .highlight:hover{
+        background-color: rgb(20, 142, 126) ;
+    }
+    .removehighlight:hover{
+        background-color: rgb(14, 163, 143) ;
+    }
+.highlight{
+    background-color: #caab22;
+}
+.removehighlight{
+    background-color: #ecf0f1 ;
+}
+
+.restart{
+    background: linear-gradient(to right, rgb(22, 138, 142), rgb(35, 119, 199));
+    padding: 8px 15px;
+    border-radius: 14px;
+    font-weight: 700;
+    font-size: 25px;
+}
+    .restart:hover{
+        background: linear-gradient(to right, rgb(60, 213, 103), rgb(125, 125, 255))
+    }
